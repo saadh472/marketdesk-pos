@@ -1,0 +1,43 @@
+/* Keep secondary information legible at laptop and mobile widths. */
+:root{--muted:#647269}
+.page-heading p{font-size:14px;color:#647269}
+.nav-item{font-size:13px}
+.brand-caption,.nav-label{font-size:10px}
+.sidebar-bottom strong,.store-switch strong{font-size:12px}
+.sidebar-bottom small,.store-switch small,.sidebar-note p{font-size:11px;color:#bdcfbf}
+.metric-label{font-size:12px;color:#54684e}
+.metric-note{font-size:11px;color:#64715f;line-height:1.5}
+.date-label,.inventory-summary,.catalog-count{font-size:12px;color:#617158}
+.card-header h2{font-size:17px}
+.card-header p,.top-product-title span,.category-chip{font-size:12px;color:#64715f}
+.data-table th{font-size:11px;color:#5e7054}
+.data-table td{font-size:13px;color:#435c3b}
+.product-cell strong,.product-card h3{font-size:13px}
+.product-cell small,.product-card small,.stock-label{font-size:11px;color:#66765b}
+.status-tag,.stock-number{font-size:11px}
+.category-tab{font-size:12px;min-height:36px}
+.product-price{font-size:17px}
+.cart-header h2{font-size:16px}
+.cart-header h2 span,.cart-header>span{font-size:11px;color:#66765b}
+.cart-item h3,.cart-line-price{font-size:13px}
+.cart-item small,.cart-remove,.cart-line-warning,.cash-change{font-size:11px}
+.cart-item small,.cash-change{color:#66765b}
+.cart-controls,.summary-line{font-size:12px}
+.summary-line strong{font-size:13px}
+.cash-label,.cash-input input,.checkout-submit{font-size:13px}
+.cash-label span,.checkout-caption{font-size:10px;color:#66765b}
+.cart-empty h3{font-size:14px}
+.cart-empty p{font-size:12px;color:#66765b}
+.filter-row select,.orders-toolbar select,.filter-row input,.catalog-toolbar input{font-size:13px}
+.queue-card h2{font-size:17px}
+.queue-card p{font-size:12px;color:#66765b}
+.queue-card .button{font-size:12px;min-height:38px}
+.field-hint{font-size:12px;color:#647269}
+.form-grid label,.form-grid input,.check-label{font-size:13px}
+.check-label small{font-size:11px;color:#647269}
+.receipt-head p,.receipt-meta,.receipt-foot{font-size:11px;color:#647269}
+.receipt-line strong,.receipt-line>span{font-size:13px}
+.receipt-line small{font-size:11px;color:#647269}
+.workspace-footer{font-size:11px;color:#647269}
+@media(max-width:740px){.page-heading p{font-size:12px}.metric-label{font-size:11px}.metric-note{font-size:10px}.product-card h3{font-size:13px}.product-card small,.stock-label{font-size:10px}.workspace-footer{font-size:10px}.heading-actions .button{font-size:12px}}
+@media(pointer:coarse){.icon-button,.button,.category-tab,.add-product{min-height:44px}.icon-button{width:44px}.quantity-control button{min-width:36px;min-height:38px}}

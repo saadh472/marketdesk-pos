@@ -1,0 +1,31 @@
+server:
+  address: ${SERVER_ADDRESS:127.0.0.1}
+  port: ${PORT:8091}
+  servlet:
+    session:
+      timeout: 30m
+      cookie:
+        http-only: true
+        same-site: strict
+        secure: ${COOKIE_SECURE:false}
+  error:
+    include-message: never
+    include-stacktrace: never
+spring:
+  application:
+    name: marketdesk
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+      accept-float-as-int: false
+    mapper:
+      allow-coercion-of-scalars: false
+marketdesk:
+  database: ${MARKETDESK_DB:./data/marketdesk.sqlite}
+  frontend: ${MARKETDESK_FRONTEND:../frontend}
+  username: ${MARKETDESK_USERNAME:admin}
+  password: ${MARKETDESK_PASSWORD:DemoPass123!}
+logging:
+  level:
+    root: WARN
+    com.saad.marketdesk: INFO
